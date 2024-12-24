@@ -1,0 +1,202 @@
+{
+  "data": [
+    {
+      "assetType": "Mutual Funds",
+      "quantity": 10,
+      "purchasePrice": 150,
+      "investmentDate": "2023-01-15"
+    },
+    {
+      "assetType": "Bonds",
+      "quantity": 50,
+      "purchasePrice": 200,
+      "investmentDate": "2023-02-20"
+    },
+    {
+      "assetType": "Commodities",
+      "quantity": 5,
+      "purchasePrice": 500000,
+      "investmentDate": "2023-03-05"
+    },
+    {
+      "assetType": "Equities",
+      "quantity": 10,
+      "purchasePrice": 250,
+      "investmentDate": "2023-04-12"
+    },
+    {
+      "assetType": "Mutual Funds",
+      "quantity": 100,
+      "purchasePrice": 350,
+      "investmentDate": "2023-05-10"
+    },
+    {
+      "assetType": "Commodities",
+      "quantity": 20,
+      "purchasePrice": 200,
+      "investmentDate": "2023-06-01"
+    },
+    {
+      "assetType": "Equities",
+      "quantity": 25,
+      "purchasePrice": 300,
+      "investmentDate": "2023-07-19"
+    },
+    {
+      "assetType": "Bonds",
+      "quantity": 30,
+      "purchasePrice": 150,
+      "investmentDate": "2023-08-22"
+    },
+    {
+      "assetType": "Commodities",
+      "quantity": 10,
+      "purchasePrice": 750000,
+      "investmentDate": "2023-09-10"
+    },
+    {
+      "assetType": "Mutual Funds",
+      "quantity": 50,
+      "purchasePrice": 400,
+      "investmentDate": "2023-10-05"
+    },
+    {
+      "assetType": "Equities",
+      "quantity": 15,
+      "purchasePrice": 220,
+      "investmentDate": "2023-11-17"
+    },
+    {
+      "assetType": "Commodities",
+      "quantity": 40,
+      "purchasePrice": 200,
+      "investmentDate": "2023-12-01"
+    },
+    {
+      "assetType": "Bonds",
+      "quantity": 10,
+      "purchasePrice": 250,
+      "investmentDate": "2024-01-05"
+    },
+    {
+      "assetType": "Commodities",
+      "quantity": 50,
+      "purchasePrice": 300000,
+      "investmentDate": "2024-02-10"
+    },
+    {
+      "assetType": "Equities",
+      "quantity": 200,
+      "purchasePrice": 150,
+      "investmentDate": "2024-03-03"
+    },
+    {
+      "assetType": "Mutual Funds",
+      "quantity": 15,
+      "purchasePrice": 170,
+      "investmentDate": "2024-04-10"
+    },
+    {
+      "assetType": "Bonds",
+      "quantity": 40,
+      "purchasePrice": 180,
+      "investmentDate": "2024-05-15"
+    },
+    {
+      "assetType": "Commodities",
+      "quantity": 10,
+      "purchasePrice": 450000,
+      "investmentDate": "2024-06-01"
+    },
+    {
+      "assetType": "Equities",
+      "quantity": 75,
+      "purchasePrice": 300,
+      "investmentDate": "2024-07-08"
+    },
+    {
+      "assetType": "Bonds",
+      "quantity": 30,
+      "purchasePrice": 220,
+      "investmentDate": "2024-08-20"
+    },
+    {
+      "assetType": "Commodities",
+      "quantity": 15,
+      "purchasePrice": 250,
+      "investmentDate": "2024-09-14"
+    },
+    {
+      "assetType": "Equities",
+      "quantity": 50,
+      "purchasePrice": 250,
+      "investmentDate": "2024-10-30"
+    },
+    {
+      "assetType": "Mutual Funds",
+      "quantity": 1,
+      "purchasePrice": 650000,
+      "investmentDate": "2024-11-11"
+    },
+    {
+      "assetType": "Commodities",
+      "quantity": 150,
+      "purchasePrice": 250,
+      "investmentDate": "2024-12-02"
+    },
+    {
+      "assetType": "Equities",
+      "quantity": 20,
+      "purchasePrice": 300,
+      "investmentDate": "2025-01-22"
+    },
+    {
+      "assetType": "Mutual Funds",
+      "quantity": 15,
+      "purchasePrice": 250,
+      "investmentDate": "2025-02-18"
+    },
+    {
+      "assetType": "Bonds",
+      "quantity": 30,
+      "purchasePrice": 180,
+      "investmentDate": "2025-03-10"
+    },
+    {
+      "assetType": "Commodities",
+      "quantity": 10,
+      "purchasePrice": 400000,
+      "investmentDate": "2025-04-07"
+    },
+    {
+      "assetType": "Equities",
+      "quantity": 120,
+      "purchasePrice": 300,
+      "investmentDate": "2025-05-21"
+    },
+    {
+      "assetType": "Mutual Funds",
+      "quantity": 50,
+      "purchasePrice": 350,
+      "investmentDate": "2025-06-15"
+    },
+    {
+      "assetType": "Commodities",
+      "quantity": 30,
+      "purchasePrice": 200,
+      "investmentDate": "2025-07-19"
+    },
+    {
+      "assetType": "Equities",
+      "quantity": 10,
+      "purchasePrice": 250,
+      "investmentDate": "2025-08-04"
+    },
+    {
+      "assetType": "Mutual Funds",
+      "quantity": 1,
+      "purchasePrice": 550000,
+      "investmentDate": "2025-09-02"
+    }
+  ]  
+}

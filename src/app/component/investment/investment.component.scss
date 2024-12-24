@@ -1,0 +1,69 @@
+
+
+.user-inventment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__title {
+        color: #2E5077;
+    }
+    &__form-container {
+        display: grid;
+        grid-gap: 15px;
+        justify-content: center;
+        color: #2E5077;
+    }
+    &__submit {
+        height: 40px;
+        background-color: #2E5077;
+        color: #fff;
+        border-radius: 5px;
+        border: none;
+    }
+    .invalid {
+        color: red;
+    }
+}
+
+.form-group {
+  --pad: .75rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+input, select {
+  padding: var(--pad);
+  border-radius: 8px;
+  background-color: var(--bg);
+  border: 1px solid #79D7BE;
+  color: inherit;
+  width: 100%;
+  min-width: 350px;
+  outline: none;
+  box-sizing: border-box;
+}
+label {
+  position: absolute;
+  left: var(--pad);
+  top: var(--pad);
+  background: #fff;
+  padding-inline: .3em;
+  transition: transform 200ms;
+  pointer-events: none;
+  transform-origin: left;
+  translate: -.3em;
+}
+
+input::placeholder, select::placeholder {
+  opacity: 0;
+}
+input:focus + label, select:focus + label
+input:not(:placeholder-shown) + label, select:not(:placeholder-shown) + label,
+input:not(:placeholder-shown) + label, select:not(:placeholder-shown) + label {
+  transform: translateY(calc(-50% - var(--pad))) scale(.8);
+  color: #2E5077;
+}
+
+input:focus, select:focus {
+  border: 1px solid #2E5077;
+}
