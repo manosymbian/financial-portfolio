@@ -5,12 +5,12 @@ import { inject, Injectable, signal } from '@angular/core';
   providedIn: 'root'
 })
 export class InvestmentService {
-  investmentData$ = signal({} as InvestmentDataSet);
+  investmentData$ = signal({} as InvestmentData[]);
   httpClient = inject(HttpClient);
 
   getInvestmentData() {
-    this.httpClient.get<InvestmentDataSet>("http://localhost:3000/data").subscribe({
-      next: (response: InvestmentDataSet) => {
+    this.httpClient.get<InvestmentData[]>("http://localhost:3000/data").subscribe({
+      next: (response: InvestmentData[]) => {
         this.investmentData$.set(response);
       },
       error: (error: HttpErrorResponse) => {

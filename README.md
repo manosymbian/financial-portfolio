@@ -1,27 +1,29 @@
-# FinancialPortfolioMgmt
+Investment Dashboard - Angular 18 Project
+Overview
+This is an Angular 18 project designed to manage and display investment data in a user-friendly dashboard. It includes two standalone components: Investment and Dashboard.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.7.
+The Investment component allows users to enter asset details such as asset type, quantity, purchase price, and investment date. The Dashboard component displays a visual representation of investment data using an Apex Pie chart, showing the total quantity of each asset type grouped by their purchases.
 
-## Development server
+Components: 
+1. Investment Component: A reactive form for managing investments with input fields:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Asset Type: The type of investment (e.g., Mutual Funds, Bonds, etc.).
+Quantity: The number of assets.
+Purchase Price: The price of each asset.
+Investment Date: The date the investment was made.
+Validators:
 
-## Code scaffolding
+Required fields for Asset Type, Quantity, Purchase Price, and Investment Date.
+Minimum quantity of 1 for assets.
+Minimum purchase price of 100 for valid asset entries.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+2. Dashboard Component: Displays an interactive Apex Pie chart representing the total quantity of each asset type based on the investment data.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Groups the investments by asset type.
+Displays total quantity for each asset type as a percentage of the whole.
+Mock Server: A mock server (using JSON-Server) is included to serve the investment data and allow for local development and testing.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+How to run:
+1. Use `npm run start` to start the app
+2. Use `npm run mock-server` to start json-server mock server

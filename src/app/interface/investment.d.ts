@@ -1,8 +1,6 @@
-interface InvestmentDataSet {
-    data: [
-        InvestmentData
-    ]
-}
+// interface InvestmentDataSet {
+//         InvestmentData
+// }
 
 interface InvestmentData  {
     assetType: AssetType,
@@ -12,3 +10,7 @@ interface InvestmentData  {
   }
 
 type AssetType = 'Mutual Funds' | 'Bonds' | 'Commodities' | 'Equities';
+
+interface TotalQuantities {
+    [key in AssetType]: number;  // Using AssetType as the key type here
+  }

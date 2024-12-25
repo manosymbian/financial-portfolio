@@ -19,6 +19,9 @@ export class InvestmentComponent {
     this.initializeForm();
   }
 
+  /**
+   * The `initializeForm` function is responsible for setting up the form controls with validation
+   */
   initializeForm() {
     this.investmentForm = new FormGroup({
       assetType: new FormControl('', { validators: [Validators.required] }),
@@ -28,6 +31,10 @@ export class InvestmentComponent {
     })
   }
 
+  /**
+   * 
+   * submits form data to mock data or BE
+   */
   onInvestmentSubmit() {
     if(this.investmentForm.invalid) {
       this.investmentForm.markAllAsTouched();

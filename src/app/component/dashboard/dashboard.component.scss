@@ -1,0 +1,10 @@
+.dashboard-container {
+    &__title {
+        color: #2E5077;
+        text-align: center;
+    }
+    &__asset-chart {
+        display: flex;
+        justify-content: center;
+    }
+}
